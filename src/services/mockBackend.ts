@@ -8,7 +8,7 @@ export type Property = {
   neighborhood: string;
   city: string;
   state: string;
-  status: string;
+  status?: string;
 };
 
 export type Contract = {
